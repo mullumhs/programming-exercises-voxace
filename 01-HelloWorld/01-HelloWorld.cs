@@ -13,6 +13,8 @@ Main Tasks:
 
 Questions:
 1. What is the difference between input and output?
+input is 
+output is
 
 Extension Tasks:
 1. Output another message / pause after the ReadLine.
@@ -31,7 +33,11 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            Console.WriteLine("Hello World");
+            Console.ReadLine();
+            Console.WriteLine("Goodbye");
+            Console.Beep(10000,5000);
+            Console.ReadLine();
         }
     }
 }
