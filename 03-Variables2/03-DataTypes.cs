@@ -44,7 +44,11 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            int jeremy = 7;
+            double ronaldo = 7.0001;
+            bool messi = false;
+            Console.WriteLine("It is " + messi + " that " + jeremy + " equals " + ronaldo);
+            Console.ReadLine();
         }
     }
 }

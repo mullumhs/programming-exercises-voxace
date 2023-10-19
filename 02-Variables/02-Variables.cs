@@ -35,7 +35,8 @@ namespace ProgrammingExercisesIST
         {
             // Your code goes below here
             string name = "David";
-            Console.WriteLine("Hello " + name);
+            string name2 = "Bob";
+            Console.WriteLine("Hello " + name + name2);
             Console.ReadLine();
 
         }
