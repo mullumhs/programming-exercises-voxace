@@ -34,11 +34,9 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-            string name = "David";
-            string name2 = "Bob";
-            Console.WriteLine("Hello " + name + name2);
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
             Console.ReadLine();
-
         }
     }
 }
