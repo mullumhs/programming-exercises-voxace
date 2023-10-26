@@ -53,6 +53,16 @@ namespace ProgrammingExercisesIST
             double x = Convert.ToDouble(Console.ReadLine());
 
             // Your code goes below here
+            Console.WriteLine("Please enter a number for Y:");
+            double y = Convert.ToDouble(Console.ReadLine());
+
+            // Add
+            Console.WriteLine($"{x} plus {y} = {x + y}");
+
+            // + - / *
+
+
+            Console.ReadLine();
 
         }
     }
