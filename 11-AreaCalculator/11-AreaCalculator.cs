@@ -49,8 +49,21 @@ namespace ProgrammingExercisesIST
     {
         static void Main(string[] args)
         {
-            // Your code goes below here
+            Console.WriteLine("Choose an Option:");
+            Console.WriteLine("1. Area of Circle");
 
+            string choice = Console.ReadLine();
+
+            // Your code goes below here
+            if(choice == "1")
+            {
+                Console.Write("Enter Radius: ");
+                double radius = Convert.ToDouble(Console.ReadLine());
+
+                // pi x radius squared
+                // double area = Math.PI * Math.Pow(radius, 2);
+                double area = 3.14 * radius * radius;
+            }
         }
     }
 }
