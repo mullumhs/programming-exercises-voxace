@@ -46,12 +46,23 @@ namespace ProgrammingExercisesIST
     {
         static void Main(string[] args)
         {
+            string name = Console.ReadLine();
             // Call the methods here, passing in the required arguments
-
+            SayHello(name);
+            SayHello("Bill");
+            Console.ReadLine();
         }
 
         // Write your methods including parameters here
+        static void SayHello(string name)
+        {
+            Console.WriteLine($"Hello {name}");
+        }
 
+        static void MultiplyNumbers(double num1, double num2)
+        {
+            double answer = num1 * num2;
+        }
     }
 }
 
